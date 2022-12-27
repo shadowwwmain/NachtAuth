@@ -101,3 +101,6 @@ Make a discord bot and set the token as bot token in config.json
 Start the bot and do `/setup <oauth link>` and watch it set up the server for you! 
 
 # That's all! Enjoy NachtAuth :)
+
+Please note that this is made for the sole purpose of showing to the public how easy it is to do this.
+I am not responsible for any malicious use of my code and do not condone it either.
