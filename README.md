@@ -3,6 +3,9 @@ Hypixel Skyblock oAuth ratting made easy
 
 # Setup
 
+VIDEO TUTORIAL: 
+https://www.youtube.com/watch?v=airw52IU250
+
 ## Config
 First, you need to set a discord webhook in the "config.json" file 
 Next, set a Hypixel api key in the config as well.
