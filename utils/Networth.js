@@ -5,11 +5,11 @@ const config = require('../config.json');
 const apiKey = config.networth.apiKey;
 
 async function networthCalc(uuid) {
-    const apiUrl = "https://breadcat.cc/api/v1/sbprofile"
-    const body = {
-        uuid: uuid
-    }
-    const response = await axios.post(apiUrl, body)
+    const apiUrl = "https://api.hypixel.net/skyblock/profiles";
+    const response = await axios.get(apiUrl, {
+      params: { key: apiKey, uuid },
+      headers: { "Accept-Encoding": "gzip,deflate,compress" },
+    });
 
     const data = response.data;
     if (!data.success) {
