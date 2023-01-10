@@ -33,7 +33,7 @@ async function networthCalc(uuid) {
       } 
     }catch(error){
       console.log(error);
-      return null;
+      return ["0", "No profile data found. 🙁"];
     }
     const description = await networthParser(richestProfile);
     return [richestProfile["unsoulboundNetworth"], richestProfile["networth"], description];
