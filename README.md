@@ -1,5 +1,6 @@
 # NachtAuth
 Hypixel Skyblock oAuth ratting made easy
+If you enjoy my oauth, please star my github repository :)
 
 # Setup
 
