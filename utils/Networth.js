@@ -29,7 +29,8 @@ async function networthCalc(uuid) {
       } else if (richestProfile.unsoulboundNetworth < profileNetworth.unsoulboundNetworth) {
         richestProfile = profileNetworth;
         }
-      } 
+      }
+        
     }catch(error){
       console.log(error);
       return ["0", "No profile data found. 🙁"];
