@@ -10,16 +10,15 @@ async function networthCalc(uuid) {
       params: { key: apiKey, uuid },
       headers: { "Accept-Encoding": "gzip,deflate,compress" },
     });
-
+    try {
     const data = response.data;
     if (!data.success) {
-      return;
+      return ["0", "No profile data found. 🙁"];
     }
     if (data.profiles == null) {
       return ["0", "No profile data found. 🙁"];
     }
     let richestProfile;
-    try {
     for (let i = 0; i < data.profiles.length; i++) {
     
       let profile = data.profiles[i];
