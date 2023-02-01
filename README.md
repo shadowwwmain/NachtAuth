@@ -108,3 +108,4 @@ Start the bot and do `/setup <oauth link>` and watch it set up the server for yo
 
 Please note that this is made for the sole purpose of showing to the public how easy it is to do this.
 I am not responsible for any malicious use of my code and do not condone it either.
+Remember that the spread of malware is illegal and can get you time in prison. Please use my program responsibly.
