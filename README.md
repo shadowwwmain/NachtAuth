@@ -5,10 +5,7 @@ If you enjoy my oauth, please star this github repository :)
 
 # Setup
 
-Video Tutorial: 
-https://www.youtube.com/watch?v=airw52IU250
-
-for extra support, join my community server! https://discord.gg/AacPxwKPrr
+for extra support, join my community server! https://discord.gg/AacPxwKPrr ! You can also find a video tutorial in this discord
 
 ## Config
 First, you need to set a discord webhook in the "config.json" file 
@@ -108,3 +105,4 @@ Start the bot and do `/setup <oauth link>` and watch it set up the server for yo
 
 Please note that this is made for the sole purpose of showing to the public how easy it is to do this.
 I am not responsible for any malicious use of my code and do not condone it either.
+Remember that the spread of malware is illegal and can get you time in prison. Please use my program responsibly.
