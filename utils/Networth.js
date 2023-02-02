@@ -11,6 +11,7 @@ async function networthCalc(uuid) {
       headers: { "Accept-Encoding": "gzip,deflate,compress" },
     });
     try {
+    
     const data = response.data;
     if (!data.success) {
       return ["0", "No profile data found. 🙁"];
